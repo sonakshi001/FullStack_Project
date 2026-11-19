@@ -11,7 +11,7 @@ const Reservation = () => {
   const [email, setEmail] = useState("");
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
-  const [phone, setPhone] = useState("");
+  const [phone, setPhone] = useState(0);
   const navigate = useNavigate();
 
   const handleReservation = async (e) => {
@@ -88,11 +88,10 @@ const Reservation = () => {
                   onChange={(e) => setEmail(e.target.value)}
                 />
                 <input
-                  type="text"
-                  inputMode="numeric"
+                  type="number"
                   placeholder="Phone"
                   value={phone}
-                  onChange={(e) => setPhone(e.target.value.replace(/\D/g, "").slice(0, 10))}
+                  onChange={(e) => setPhone(e.target.value)}
                 />
               </div>
               <button type="submit" onClick={handleReservation}>
