@@ -287,6 +287,5 @@ This project is licensed under the [MIT License](LICENSE).
 B.Tech CSE (AI & ML)
 
 - GitHub: [@sonakshi001](https://github.com/your-sonakshi001)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/sonakshi001)
 
 ⭐ If you like this project, give it a star!
